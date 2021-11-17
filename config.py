@@ -5,8 +5,8 @@
 ACCESS_TOKEN_URL = "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid={ID}&corpsecret={SECRET}"
 SEND_MESSAGE_URL = "https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token="
 AGENTID = 1000002   #应用的AgentId,在管理后台里可查
-CORPSECRET = "scygiuNjF9qQ1C3DpgfS7n4A4JH48xs-9ITAR6yITw0"  #应用的Secret,在管理后台里可查
-CORPID = "ww46a1dc62fdfebaf0"   #你的企业ID,在后台管理-->我的企业中可查
+CORPSECRET = "s******jF9qQ1C3DpgfS7n4A4JH48xs-9ITAR******"  #应用的Secret,在管理后台里可查
+CORPID = "ww46a*************"   #你的企业ID,在后台管理-->我的企业中可查
 PARTY = "1" # 部门ID
 TAG = "666" # 标签ID
 TOKEN = "L5SaM7qM5P6CfwqqNTQVbfS7q"     #应用接收消息服务器中生成的Token
