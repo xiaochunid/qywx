@@ -9,7 +9,7 @@ restart done!
 #### 执行方式
 ![图片](https://user-images.githubusercontent.com/32502063/142201341-278d7070-e0c6-4ec9-a12d-7fa35ba31bc4.png)
 
-#### 执行的具体操作可以在command模块中定义
+#### 执行的具体操作可以在config模块中定义
 ```
 COMMAND_LIST_GET = {
     1: {
