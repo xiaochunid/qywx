@@ -1,0 +1,235 @@
+2021-11-15 17:22:36 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-15 17:22:36 command.py[line:91] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exec over, ret ==> failed! ret: Ssh_Excuter instance has no attribute 'execute'
+2021-11-15 17:24:14 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-15 17:24:14 command.py[line:46] INFO Start connect to 22
+2021-11-15 17:24:14 command.py[line:62] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start in 22 exec failed ==> reason: getaddrinfo() argument 1 must be string or None
+2021-11-15 17:24:14 command.py[line:86] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exec ==> failed!
+2021-11-15 17:27:25 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-15 17:27:25 command.py[line:46] INFO Start connect to 22
+2021-11-15 17:27:25 command.py[line:62] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start in 22 exec failed ==> reason: getaddrinfo() argument 1 must be string or None
+2021-11-15 17:27:25 command.py[line:86] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exec ==> failed!
+2021-11-15 17:29:47 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-15 17:29:47 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-15 17:29:48 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-15 17:29:50 command.py[line:59] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec success ==> ret: 
+[0;32m===============================================[0;00m
+[0;32m|                 server status               |[0;00m
+[0;32m===============================================[0;00m
+[0;33mgame_log_1_1      [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1013       00:01[0;00m
+[0;33mgame_entry_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1021       00:01[0;00m
+[0;33mgame_store_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1029       00:01[0;00m
+[0;33mgame_store_1_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1032       00:01[0;00m
+[0;33mgame_offline_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1042       00:01[0;00m
+[0;33mgame_public_1_1   [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1049       00:01[0;00m
+[0;33mgame_member_1_1_0 [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1056       00:01[0;00m
+[0;33mgame_cache_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1064       00:01[0;00m
+[0;33mgame_world_1_1    [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1071       00:01[0;00m
+
+2021-11-15 17:29:50 command.py[line:88] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec == > succeed!
+2021-11-15 17:53:09 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-15 17:53:09 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-15 17:53:09 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-15 17:53:10 command.py[line:62] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start in 192.168.0.251 exec failed ==> reason: global name 'resutl' is not defined
+2021-11-15 17:53:10 command.py[line:86] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exec ==> failed!
+2021-11-15 17:54:55 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-15 17:54:55 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-15 17:54:56 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-15 17:54:56 command.py[line:57] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exit code is not 0 ==> ret: [0;31mudb file count:[0;33m1 [0;31mis not 0!!!![0;00m
+[0;31mexec [0;33mplease check udb file first [0;00m
+
+
+2021-11-15 17:54:56 command.py[line:86] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exec ==> failed!
+2021-11-15 17:55:38 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-15 17:55:38 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-15 17:55:38 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-15 17:55:41 command.py[line:59] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec success ==> ret: 
+[0;32m===============================================[0;00m
+[0;32m|                 server status               |[0;00m
+[0;32m===============================================[0;00m
+[0;33mgame_log_1_1      [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m6844       00:00[0;00m
+[0;33mgame_entry_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m6851       00:00[0;00m
+[0;33mgame_store_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m6859       00:01[0;00m
+[0;33mgame_store_1_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m6861       00:01[0;00m
+[0;33mgame_offline_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m6869       00:01[0;00m
+[0;33mgame_public_1_1   [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m6876       00:01[0;00m
+[0;33mgame_member_1_1_0 [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m6883       00:01[0;00m
+[0;33mgame_cache_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m6890       00:01[0;00m
+[0;33mgame_world_1_1    [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m6897       00:01[0;00m
+
+2021-11-15 17:55:41 command.py[line:88] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec == > succeed!
+2021-11-15 17:56:39 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh stop
+2021-11-15 17:56:39 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-15 17:56:39 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-15 17:58:05 command.py[line:59] INFO Command cd /data/gameapp/game1 && bash gen_server.sh stop exec success ==> ret: 
+[0;32m===============================================[0;00m
+[0;32m|                 server status               |[0;00m
+[0;32m===============================================[0;00m
+[0;33mgame_log_1_1      [0;31mnot running ...[0;00m
+[0;33mgame_entry_1_1_0  [0;31mnot running ...[0;00m
+[0;33mgame_store_1_1_0  [0;31mnot running ...[0;00m
+[0;33mgame_store_1_1_1  [0;31mnot running ...[0;00m
+[0;33mgame_offline_1_1  [0;31mnot running ...[0;00m
+[0;33mgame_public_1_1   [0;31mnot running ...[0;00m
+[0;33mgame_member_1_1_0 [0;31mnot running ...[0;00m
+[0;33mgame_cache_1_1_0  [0;31mnot running ...[0;00m
+[0;33mgame_world_1_1    [0;31mnot running ...[0;00m
+
+2021-11-15 17:58:05 command.py[line:88] INFO Command cd /data/gameapp/game1 && bash gen_server.sh stop exec == > succeed!
+2021-11-15 18:07:34 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-15 18:07:34 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-15 18:07:34 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-15 18:07:36 command.py[line:59] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec success ==> ret: 
+[0;32m===============================================[0;00m
+[0;32m|                 server status               |[0;00m
+[0;32m===============================================[0;00m
+[0;33mgame_log_1_1      [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m13751       00:01[0;00m
+[0;33mgame_entry_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m13758       00:01[0;00m
+[0;33mgame_store_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m13765       00:01[0;00m
+[0;33mgame_store_1_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m13769       00:01[0;00m
+[0;33mgame_offline_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m13835       00:01[0;00m
+[0;33mgame_public_1_1   [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m13862       00:00[0;00m
+[0;33mgame_member_1_1_0 [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m13865       00:00[0;00m
+[0;33mgame_cache_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m13872       00:00[0;00m
+[0;33mgame_world_1_1    [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m13880       00:00[0;00m
+
+2021-11-15 18:07:36 command.py[line:88] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec == > succeed!
+2021-11-15 18:08:15 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh stop
+2021-11-15 18:08:15 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-15 18:08:15 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-15 18:09:40 command.py[line:59] INFO Command cd /data/gameapp/game1 && bash gen_server.sh stop exec success ==> ret: 
+[0;32m===============================================[0;00m
+[0;32m|                 server status               |[0;00m
+[0;32m===============================================[0;00m
+[0;33mgame_log_1_1      [0;31mnot running ...[0;00m
+[0;33mgame_entry_1_1_0  [0;31mnot running ...[0;00m
+[0;33mgame_store_1_1_0  [0;31mnot running ...[0;00m
+[0;33mgame_store_1_1_1  [0;31mnot running ...[0;00m
+[0;33mgame_offline_1_1  [0;31mnot running ...[0;00m
+[0;33mgame_public_1_1   [0;31mnot running ...[0;00m
+[0;33mgame_member_1_1_0 [0;31mnot running ...[0;00m
+[0;33mgame_cache_1_1_0  [0;31mnot running ...[0;00m
+[0;33mgame_world_1_1    [0;31mnot running ...[0;00m
+
+2021-11-15 18:09:40 command.py[line:88] INFO Command cd /data/gameapp/game1 && bash gen_server.sh stop exec == > succeed!
+2021-11-16 10:08:38 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-16 10:08:38 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-16 10:08:38 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-16 10:08:41 command.py[line:59] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec success ==> ret: 
+[0;32m===============================================[0;00m
+[0;32m|                 server status               |[0;00m
+[0;32m===============================================[0;00m
+[0;33mgame_log_1_1      [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m23001       00:00[0;00m
+[0;33mgame_entry_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m23008       00:00[0;00m
+[0;33mgame_store_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m23015       00:01[0;00m
+[0;33mgame_store_1_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m23019       00:01[0;00m
+[0;33mgame_offline_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m23025       00:01[0;00m
+[0;33mgame_public_1_1   [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m23032       00:01[0;00m
+[0;33mgame_member_1_1_0 [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m23039       00:01[0;00m
+[0;33mgame_cache_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m23046       00:01[0;00m
+[0;33mgame_world_1_1    [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m23053       00:01[0;00m
+
+2021-11-16 10:08:41 command.py[line:88] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec == > succeed!
+2021-11-16 10:12:51 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-16 10:12:51 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-16 10:12:52 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-16 10:12:52 command.py[line:57] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exit code is not 0 ==> ret: [0;31mudb file count:[0;33m1 [0;31mis not 0!!!![0;00m
+[0;31mexec [0;33mplease check udb file first [0;00m
+
+
+2021-11-16 10:12:52 command.py[line:86] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exec ==> failed!
+2021-11-16 10:13:37 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-16 10:13:37 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-16 10:13:37 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-16 10:13:40 command.py[line:59] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec success ==> ret: 
+[0;32m===============================================[0;00m
+[0;32m|                 server status               |[0;00m
+[0;32m===============================================[0;00m
+[0;33mgame_log_1_1      [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m25053       00:00[0;00m
+[0;33mgame_entry_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m25060       00:00[0;00m
+[0;33mgame_store_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m25068       00:00[0;00m
+[0;33mgame_store_1_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m25070       00:00[0;00m
+[0;33mgame_offline_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m25077       00:01[0;00m
+[0;33mgame_public_1_1   [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m25084       00:01[0;00m
+[0;33mgame_member_1_1_0 [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m25092       00:01[0;00m
+[0;33mgame_cache_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m25098       00:01[0;00m
+[0;33mgame_world_1_1    [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m25105       00:01[0;00m
+
+2021-11-16 10:13:40 command.py[line:88] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec == > succeed!
+2021-11-16 10:20:22 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh stop
+2021-11-16 10:20:22 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-16 10:20:22 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-16 10:21:48 command.py[line:59] INFO Command cd /data/gameapp/game1 && bash gen_server.sh stop exec success ==> ret: 
+[0;32m===============================================[0;00m
+[0;32m|                 server status               |[0;00m
+[0;32m===============================================[0;00m
+[0;33mgame_log_1_1      [0;31mnot running ...[0;00m
+[0;33mgame_entry_1_1_0  [0;31mnot running ...[0;00m
+[0;33mgame_store_1_1_0  [0;31mnot running ...[0;00m
+[0;33mgame_store_1_1_1  [0;31mnot running ...[0;00m
+[0;33mgame_offline_1_1  [0;31mnot running ...[0;00m
+[0;33mgame_public_1_1   [0;31mnot running ...[0;00m
+[0;33mgame_member_1_1_0 [0;31mnot running ...[0;00m
+[0;33mgame_cache_1_1_0  [0;31mnot running ...[0;00m
+[0;33mgame_world_1_1    [0;31mnot running ...[0;00m
+
+2021-11-16 10:21:48 command.py[line:88] INFO Command cd /data/gameapp/game1 && bash gen_server.sh stop exec == > succeed!
+2021-11-16 10:37:22 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-16 10:37:22 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-16 10:37:23 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-16 10:37:25 command.py[line:59] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec success ==> ret: 
+[0;32m===============================================[0;00m
+[0;32m|                 server status               |[0;00m
+[0;32m===============================================[0;00m
+[0;33mgame_log_1_1      [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1262       00:00[0;00m
+[0;33mgame_entry_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1270       00:00[0;00m
+[0;33mgame_store_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1276       00:00[0;00m
+[0;33mgame_store_1_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1279       00:00[0;00m
+[0;33mgame_offline_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1286       00:00[0;00m
+[0;33mgame_public_1_1   [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1333       00:00[0;00m
+[0;33mgame_member_1_1_0 [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1346       00:00[0;00m
+[0;33mgame_cache_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1357       00:00[0;00m
+[0;33mgame_world_1_1    [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m1392       00:00[0;00m
+
+2021-11-16 10:37:25 command.py[line:88] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec == > succeed!
+2021-11-16 10:38:53 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-16 10:38:53 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-16 10:38:54 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-16 10:38:54 command.py[line:57] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exit code is not 0 ==> ret: [0;31mudb file count:[0;33m1 [0;31mis not 0!!!![0;00m
+[0;31mexec [0;33mplease check udb file first [0;00m
+
+
+2021-11-16 10:38:54 command.py[line:86] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exec ==> failed!
+2021-11-16 10:42:18 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-16 10:42:18 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-16 10:42:18 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-16 10:42:18 command.py[line:57] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exit code is not 0 ==> ret: [0;31mudb file count:[0;33m1 [0;31mis not 0!!!![0;00m
+[0;31mexec [0;33mplease check udb file first [0;00m
+
+
+2021-11-16 10:42:18 command.py[line:86] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exec ==> failed!
+2021-11-16 10:43:23 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-16 10:43:23 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-16 10:43:23 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-16 10:43:23 command.py[line:57] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exit code is not 0 ==> ret: [0;31mudb file count:[0;33m1 [0;31mis not 0!!!![0;00m
+[0;31mexec [0;33mplease check udb file first [0;00m
+
+
+2021-11-16 10:43:23 command.py[line:86] ERROR Command cd /data/gameapp/game1 && bash gen_server.sh start exec ==> failed!
+2021-11-16 10:52:07 command.py[line:83] INFO Start connect to 192.168.0.251 and exec command ==> command: cd /data/gameapp/game1 && bash gen_server.sh start
+2021-11-16 10:52:07 command.py[line:46] INFO Start connect to 192.168.0.251
+2021-11-16 10:52:08 command.py[line:48] INFO Connecting to 192.168.0.251 success...
+2021-11-16 10:52:10 command.py[line:59] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec success ==> ret: 
+[0;32m===============================================[0;00m
+[0;32m|                 server status               |[0;00m
+[0;32m===============================================[0;00m
+[0;33mgame_log_1_1      [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m5174       00:01[0;00m
+[0;33mgame_entry_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m5181       00:01[0;00m
+[0;33mgame_store_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m5188       00:01[0;00m
+[0;33mgame_store_1_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m5191       00:01[0;00m
+[0;33mgame_offline_1_1  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m5200       00:01[0;00m
+[0;33mgame_public_1_1   [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m5224       00:01[0;00m
+[0;33mgame_member_1_1_0 [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m5287       00:01[0;00m
+[0;33mgame_cache_1_1_0  [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m5297       00:00[0;00m
+[0;33mgame_world_1_1    [0;32mrunning procnum ([0;33m1[0;32m) ok... [0;33m5305       00:00[0;00m
+
+2021-11-16 10:52:10 command.py[line:88] INFO Command cd /data/gameapp/game1 && bash gen_server.sh start exec == > succeed!
