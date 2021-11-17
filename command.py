@@ -41,7 +41,7 @@ class Ssh_Excuter:
     def execute(self,command):
         ssh = paramiko.SSHClient()
         ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-        pkey = paramiko.RSAKey.from_private_key_file('/root/zj/gm_tools/keys/all')
+        pkey = paramiko.RSAKey.from_private_key_file('/root/zj/gm_tools/keys/test')
         try:
             logprf.info("Start connect to {}".format(self.host))
             ssh.connect(hostname=self.host,port=self.port,username=self.user,pkey=pkey)
